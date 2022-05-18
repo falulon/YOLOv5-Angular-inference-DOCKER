@@ -1,0 +1,41 @@
+.small-container{
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+img { 
+    max-width: 60vw; 
+    max-height: 55vh;
+    align-self: baseline;
+}
+
+.no-display {
+    display: none;
+}
+button {
+    padding: 12px;
+    /* width: 6.5em; */
+    height: 2.5em;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 1px #2055bd;
+    font-size: 1.2em;
+    color: #345a83;
+    margin: 15px;
+}
+
+button:hover { 
+    cursor: pointer;
+}
+
+@media (orientation: portrait) { 
+
+    img { 
+        max-width: 95vw; 
+        max-height: 85vh;
+        align-self: baseline;
+    }
+
+}
